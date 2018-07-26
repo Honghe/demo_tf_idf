@@ -1,11 +1,7 @@
 package io.github.henryw;
 
 import io.github.henryw.utils.Printer;
-import io.github.henryw.utils.ResourceReader;
-import org.ansj.domain.Term;
-import org.ansj.splitWord.analysis.ToAnalysis;
 
-import java.util.*;
 import java.util.logging.Logger;
 
 public class Main {
