@@ -20,7 +20,6 @@ public class TFIDFExtractor {
 
         List<List<String>> documents = new ArrayList<List<String>>();
         for (int i = 0; i < corpus.length; i++) {
-//            documents.add(ToAnalysis.parse(corpus[i]).getTerms());
             List<Term> terms = ToAnalysis.parse(corpus[i]).getTerms();
             List<String> termsSeg = new ArrayList<String>();
             for (Iterator<Term> it = terms.iterator(); it.hasNext(); ) {
